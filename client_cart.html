@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart is Empty</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+        
+        <div class="flex justify-center mb-4">
+            <i data-lucide="shopping-bag" class="w-20 h-20 text-gray-300"></i>
+        </div>
+
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Your cart is empty</h2>
+        
+        <p class="text-gray-600 mb-6 max-w-md mx-auto">
+            Browse our recommended products and add items to your cart to see them here.
+        </p>
+
+        <a 
+            href="/client/recommendations" 
+            class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors font-medium shadow-sm"
+        >
+            Browse Products
+        </a>
+    </div>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
